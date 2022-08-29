@@ -39,7 +39,7 @@ const Dashboard = () => {
             posts.map((post) => (
               <div key={post.id} className={styles.post_row}>
                 <p>{post.title}</p>
-                <div>
+                <div className={styles.buttons}>
                   <Link to={`/posts/${post.id}`} className="btn btn-outline">
                     Ver
                   </Link>

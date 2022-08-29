@@ -53,7 +53,13 @@
 .post_row button,
 .post_row a {
   margin: 0 5px;
-  height: 30px;
-  width: 100px;
+  width: auto;
   font-size: 0.7em;
+}
+
+@media screen and (max-width: 767px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
 }

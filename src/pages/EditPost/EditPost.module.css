@@ -21,3 +21,9 @@
   max-width: 100%;
   margin-bottom: 1em;
 }
+
+@media screen and (max-width: 767px) {
+  .edit_post form {
+    max-width: 80%;
+  }
+}

@@ -29,3 +29,17 @@
 .noposts a {
   padding: 10px 25px;
 }
+
+@media screen and (max-width: 767px) {
+  .home h1 {
+    text-align: center;
+  }
+  .search_form {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .search_form button{
+    width: 53%;
+  }
+}

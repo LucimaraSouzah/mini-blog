@@ -1,12 +1,18 @@
 .create_post {
-    text-align: center;
+  text-align: center;
 }
 
 .create_post h2 {
-    font-size: 2.2em;
+  font-size: 2.2em;
 }
 
 .create_post p {
-     color: #aaa;
-     margin-bottom: 2em;
+  color: #aaa;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 767px) {
+  .create_post form {
+    max-width: 80%;
+  }
 }
